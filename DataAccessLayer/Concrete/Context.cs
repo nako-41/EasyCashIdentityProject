@@ -18,8 +18,5 @@ namespace DataAccessLayer.Concrete
         }
         public DbSet<CustomerAccount> customerAccounts { get; set; }
         public DbSet<CustomerAccountProcess> customerAccountProcesses { get; set; }
-
-
-
     }
 }
