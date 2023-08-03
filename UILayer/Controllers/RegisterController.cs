@@ -72,10 +72,7 @@ namespace UILayer.Controllers
                     client.Send(mimeMessage);
                     client.Disconnect(true);
 
-
-
-
-
+                    TempData["mail"]=appUserRegisterDto.Email;
 
                     return RedirectToAction("Index", "ConfirmMail");
                 }

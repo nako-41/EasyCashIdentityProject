@@ -38,12 +38,17 @@
 	<div class="w3layoutscontaineragileits">
 		<h2>Yeni Musteri</h2>
 		<form method="post">
-			<input type="text"  asp-for="Name" placeholder="Adınız" required="">
-			<input type="text" asp-for="Surname" placeholder="Soyadınız" required="">
-			<input type="text" asp-for="Username" placeholder="Kullanici Adiniz" required="">
-			<input type="email" asp-for="Email" placeholder="Mail Adresiniz" required="">
-			<input type="password" asp-for="Password" placeholder="şifreniz" required="">
-			<input type="password" asp-for="ConfirmPassword" placeholder="Şifresnizi tekrar giriniz" required="">
+			<input type="text" style="width:350px;" asp-for="Name" placeholder="Adınız" required="">
+			<br />
+			<input type="text" style="width:350px;" asp-for="Surname" placeholder="Soyadınız" required="">
+			<br />
+			<input type="text" style="width:350px;" asp-for="Username" placeholder="Kullanici Adiniz" required="">
+			<br />
+			<input type="email" style="width:350px;" asp-for="Email" placeholder="Mail Adresiniz" required="">
+			<br />
+			<input type="password" style="width:350px;" asp-for="Password" placeholder="şifreniz" required="">
+			<br />
+			<input type="password" style="width:350px;" asp-for="ConfirmPassword" placeholder="Şifresnizi tekrar giriniz" required="">
 
 			<div asp-validation-summary="ModelOnly"></div>
 			<br /> <br />
